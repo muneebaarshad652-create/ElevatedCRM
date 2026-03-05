@@ -55,7 +55,7 @@
                 @else
                     <a href="{{ auth()->user()->role === 'admin' ? route('admin.dashboard') : route('customer.dashboard') }}" 
                        class="bg-blue-600 text-white px-3 py-2 rounded-md hover:bg-blue-700 transition">
-                        Dashboard
+                        Dashboardggg
                     </a>
                     <form method="POST" action="{{ route('logout') }}" class="inline">
                         @csrf
