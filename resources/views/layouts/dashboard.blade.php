@@ -69,7 +69,7 @@
                     <h2 class="text-xl font-semibold text-gray-800">@yield('header', 'Dashboard')</h2>
                     <div class="flex items-center">
                         
-                        <form method="POST" action="{{ route('logout') }}" class="inline">
+                        <form method="POST" action="{{ route('logout') }}" class="inline"> 
                             @csrf
                             <button type="submit" class="text-white text-center px-4 py-2 rounded-lg font-semibold text-md bg-red-600 hover:bg-red-700">
                                 Logout
